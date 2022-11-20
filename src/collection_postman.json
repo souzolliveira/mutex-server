@@ -1,0 +1,45 @@
+{
+  "info": {
+    "_postman_id": "fc7bae4d-c50f-4466-9408-c6ca1bbf67af",
+    "name": "MC714",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "24508613"
+  },
+  "item": [
+    {
+      "name": "mutex",
+      "item": [
+        {
+          "name": "open-session",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9120/open-session/emanuel/A",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9120",
+              "path": ["open-session", "emanuel", "A"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "close-session",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9120/close-session/tota/A",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9120",
+              "path": ["close-session", "tota", "A"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
